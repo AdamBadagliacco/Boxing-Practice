@@ -5,7 +5,7 @@ using UnityEngine;
 public class BoxingAttack : MonoBehaviour
 {
     public string attackName;
-    public int attackNumber;
+    public string attackNumber;
 
     //Sound Effect
     public GameObject SoundEffectName;

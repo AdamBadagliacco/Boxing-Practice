@@ -5,19 +5,20 @@ using UnityEngine;
 public class BoxingPracticeManager : MonoBehaviour
 {
     public List<GameObject> BoxingAttacks;
+    public List<GameObject> Rolls;
 
     [Tooltip("Pick one of below three")]
     [Header("Audio Cue Of Attacks")]
     public bool numbers;
     public bool names;
-    public bool both;
 
     [Header("Other Attack Variables")]
+    public float speed;
     public bool rollsOn;
     public bool speedIncreases;
-    public float speed;
+    public float speedIncreaseAmount;
     
-    [Header("Combos")]
+    [Header("Combos (Not yet supported)")]
     public bool combosOn;
     public int amountOfCombos;
     public int hitsPerCombo;
@@ -25,6 +26,10 @@ public class BoxingPracticeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(rollsOn){
+            BoxingAttacks.AddRange(Rolls);
+
+        }
         StartCoroutine(StartBoxingPractice());
     }
 
@@ -59,24 +64,31 @@ public class BoxingPracticeManager : MonoBehaviour
 
             GameObject NextAttack = GetRandomAttack();
 
-            if(numbers){
-                PlaySoundEffectNumber(NextAttack);  
+            if(numbers && names){
+                int nameOrNumber = Random.Range(0, 2);
+                if(nameOrNumber == 0){
+                    PlaySoundEffectNumber(NextAttack);  
+                }
+                else if(nameOrNumber == 1){
+                    PlaySoundEffectName(NextAttack);  
+                }
+                else{
+                    throw new System.ArgumentException("Random number should be either 0 or 1");
+                }
             }
             else if(names){
                PlaySoundEffectName(NextAttack);  
             }
-            else{
-                int nameOrNumber = Random.Range(0, 1);
-                if(nameOrNumber == 0){
-                    PlaySoundEffectNumber(NextAttack);  
-                }
-                else{
-                    PlaySoundEffectName(NextAttack);  
-                }
+            else if(numbers){
+               PlaySoundEffectNumber(NextAttack);  
             }
+            else{
+                throw new System.ArgumentException("Either name or number audio cue must be turned on");
+            }
+
              yield return new WaitForSeconds(speed);
              if(speedIncreases){
-                 speed =- 0.2f;
+                 speed =- speedIncreaseAmount;
              }
         }
     }

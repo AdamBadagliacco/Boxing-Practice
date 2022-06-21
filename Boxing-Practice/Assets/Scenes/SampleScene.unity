@@ -240,12 +240,15 @@ MonoBehaviour:
   - {fileID: 1660085141818872137, guid: 09bc6f1ba0219d543ac132e65a68d87d, type: 3}
   - {fileID: 3047973155321779168, guid: 95e19aeb7717bfe4d927551e779006d0, type: 3}
   - {fileID: 837854364504909483, guid: 5282b7675f5f62c49ae3bf43b0e55ec2, type: 3}
-  numbers: 0
+  Rolls:
+  - {fileID: 9098209688227515110, guid: 1e9c1cd0d7d85974a9adb69de48384d9, type: 3}
+  - {fileID: 2301753678800019060, guid: 0f10c9469c4041b4e85bc2e32a875e43, type: 3}
+  numbers: 1
   names: 1
-  both: 0
-  rollsOn: 0
+  speed: 0.2
+  rollsOn: 1
   speedIncreases: 0
-  speed: 3
+  speedIncreaseAmount: 0
   combosOn: 0
   amountOfCombos: 0
   hitsPerCombo: 0
