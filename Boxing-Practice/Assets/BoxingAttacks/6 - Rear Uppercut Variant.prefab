@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 3047973155321779168, guid: 95e19aeb7717bfe4d927551e779006d0,
         type: 3}
       propertyPath: m_Name
-      value: 6 - Rear Uppercut
+      value: 6 - Rear Uppercut Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3047973155321779169, guid: 95e19aeb7717bfe4d927551e779006d0,
         type: 3}
@@ -77,5 +77,11 @@ PrefabInstance:
       propertyPath: attackNumber
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6244453210332023204, guid: 95e19aeb7717bfe4d927551e779006d0,
+        type: 3}
+      propertyPath: SoundEffectNumber
+      value: 
+      objectReference: {fileID: 435583909620275451, guid: 694b153165853a0489e5bfc25a2993cb,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95e19aeb7717bfe4d927551e779006d0, type: 3}

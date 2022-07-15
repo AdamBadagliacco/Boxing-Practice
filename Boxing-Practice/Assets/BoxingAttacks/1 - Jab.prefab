@@ -46,4 +46,5 @@ MonoBehaviour:
   attackName: Jab
   attackNumber: 1
   SoundEffectName: {fileID: 0}
-  SoundEffectNumber: {fileID: 0}
+  SoundEffectNumber: {fileID: 8117718116621751901, guid: 487f87d866528da42a33128eb64efb61,
+    type: 3}

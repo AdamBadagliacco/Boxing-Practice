@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 2718503073875199942, guid: 45df78ebda4a9c646b8ee33cd63513d9,
         type: 3}
       propertyPath: m_Name
-      value: 3 - Lead Hook
+      value: 3 - Lead Hook Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2718503073875199943, guid: 45df78ebda4a9c646b8ee33cd63513d9,
         type: 3}
@@ -77,5 +77,11 @@ PrefabInstance:
       propertyPath: attackNumber
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 6439657462283984258, guid: 45df78ebda4a9c646b8ee33cd63513d9,
+        type: 3}
+      propertyPath: SoundEffectNumber
+      value: 
+      objectReference: {fileID: 3978130888996760166, guid: 1c937c3fb91e9df45b1d9d58d67295ee,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45df78ebda4a9c646b8ee33cd63513d9, type: 3}

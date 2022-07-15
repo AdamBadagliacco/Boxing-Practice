@@ -47,13 +47,13 @@ public class BoxingPracticeManager : MonoBehaviour
     public void PlaySoundEffectName(GameObject NextAttack){
         Debug.Log(NextAttack.GetComponent<BoxingAttack>().attackName);                 
         //Play Attack Name
-        //NextAttack.GetComponent<BoxingAttack>()PlaySoundEffectName();
+        NextAttack.GetComponent<BoxingAttack>().PlaySoundEffectName();
     }
 
     public void PlaySoundEffectNumber(GameObject NextAttack){
          Debug.Log(NextAttack.GetComponent<BoxingAttack>().attackNumber);           
-                //Play Attack Number
-                //NextAttack.GetComponent<BoxingAttack>()PlaySoundEffectNumber();
+        //Play Attack Number
+        NextAttack.GetComponent<BoxingAttack>().PlaySoundEffectNumber();
     }
 
     public IEnumerator StartBoxingPractice(){

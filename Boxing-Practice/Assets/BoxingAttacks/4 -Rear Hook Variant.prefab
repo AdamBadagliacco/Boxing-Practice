@@ -65,7 +65,7 @@ PrefabInstance:
     - target: {fileID: 298690433120315891, guid: b58e2c2788eeca24190233b7c37f8988,
         type: 3}
       propertyPath: m_Name
-      value: 4 -Rear Hook
+      value: 4 -Rear Hook Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8701371394274063287, guid: b58e2c2788eeca24190233b7c37f8988,
         type: 3}
@@ -77,5 +77,11 @@ PrefabInstance:
       propertyPath: attackNumber
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8701371394274063287, guid: b58e2c2788eeca24190233b7c37f8988,
+        type: 3}
+      propertyPath: SoundEffectNumber
+      value: 
+      objectReference: {fileID: 3829052331909062877, guid: 3417fa6d85326504dbdf665886c6ffdd,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b58e2c2788eeca24190233b7c37f8988, type: 3}

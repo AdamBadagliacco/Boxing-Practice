@@ -244,9 +244,9 @@ MonoBehaviour:
   - {fileID: 9098209688227515110, guid: 1e9c1cd0d7d85974a9adb69de48384d9, type: 3}
   - {fileID: 2301753678800019060, guid: 0f10c9469c4041b4e85bc2e32a875e43, type: 3}
   numbers: 1
-  names: 1
-  speed: 0.2
-  rollsOn: 1
+  names: 0
+  speed: 2
+  rollsOn: 0
   speedIncreases: 0
   speedIncreaseAmount: 0
   combosOn: 0
