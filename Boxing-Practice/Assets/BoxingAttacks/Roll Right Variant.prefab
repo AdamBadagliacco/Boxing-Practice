@@ -17,10 +17,22 @@ PrefabInstance:
       propertyPath: attackNumber
       value: Roll Right
       objectReference: {fileID: 0}
+    - target: {fileID: 191130246816420002, guid: 1e9c1cd0d7d85974a9adb69de48384d9,
+        type: 3}
+      propertyPath: SoundEffectName
+      value: 
+      objectReference: {fileID: 3992040936274311092, guid: 06fe75c53298cb14f9f4b8c564e4d1a7,
+        type: 3}
+    - target: {fileID: 191130246816420002, guid: 1e9c1cd0d7d85974a9adb69de48384d9,
+        type: 3}
+      propertyPath: SoundEffectNumber
+      value: 
+      objectReference: {fileID: 3992040936274311092, guid: 06fe75c53298cb14f9f4b8c564e4d1a7,
+        type: 3}
     - target: {fileID: 9098209688227515110, guid: 1e9c1cd0d7d85974a9adb69de48384d9,
         type: 3}
       propertyPath: m_Name
-      value: Roll Right
+      value: Roll Right Variant
       objectReference: {fileID: 0}
     - target: {fileID: 9098209688227515111, guid: 1e9c1cd0d7d85974a9adb69de48384d9,
         type: 3}

@@ -83,5 +83,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 435583909620275451, guid: 694b153165853a0489e5bfc25a2993cb,
         type: 3}
+    - target: {fileID: 6244453210332023204, guid: 95e19aeb7717bfe4d927551e779006d0,
+        type: 3}
+      propertyPath: SoundEffectName
+      value: 
+      objectReference: {fileID: 85290635713565782, guid: c532d24d867f29a4f986a2c52ec44fe2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95e19aeb7717bfe4d927551e779006d0, type: 3}

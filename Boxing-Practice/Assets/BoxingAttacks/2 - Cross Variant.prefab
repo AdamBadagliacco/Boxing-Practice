@@ -23,6 +23,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2795262107019270221, guid: 39d5eda7cc8bb6a4cba9c40773215844,
         type: 3}
+    - target: {fileID: 2807543160705061684, guid: d84fa3b7488c71e46965494a4e34935e,
+        type: 3}
+      propertyPath: SoundEffectName
+      value: 
+      objectReference: {fileID: 2458853778637690200, guid: 9d09295bc6447744aa6f707f67c547f2,
+        type: 3}
     - target: {fileID: 6490311390709270896, guid: d84fa3b7488c71e46965494a4e34935e,
         type: 3}
       propertyPath: m_Name
